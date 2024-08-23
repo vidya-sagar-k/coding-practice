@@ -50,7 +50,7 @@ public class Solution {
                 placedQueens.set(index, i);
                 placeQueens(solutions, placedQueens, index+1);
                 
-                placedQueens.set(index, -1);
+                // placedQueens.set(index, -1); // not needed
                 
             }
         }
